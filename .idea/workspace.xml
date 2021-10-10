@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="169dad2f-f974-4617-b974-ee8f955dc716" name="Changes" comment="">
+    <list default="true" id="169dad2f-f974-4617-b974-ee8f955dc716" name="Changes" comment="Solved the task(first method)">
+      <change afterPath="$PROJECT_DIR$/src/ru/LilShkrek/TaskWithCoins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Samsung_IT_Academy/ru/LilShkrek/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Samsung_IT_Academy/ru/LilShkrek/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/LilShkrek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/LilShkrek/Main.java" afterDir="false" />
@@ -13,6 +14,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,7 +96,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TaskWithCoins">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ru.LilShkrek.Main" />
       <module name="Samsung_IT_Academy" />
@@ -99,8 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskWithCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.LilShkrek.TaskWithCoins" />
+      <module name="Samsung_IT_Academy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.LilShkrek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskWithCoins" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -115,6 +137,14 @@
       <updated>1633264827634</updated>
       <workItem from="1633264828973" duration="1251000" />
     </task>
+    <task id="LOCAL-00001" summary="Solved the task(first method)">
+      <created>1633876577745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633876577745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +161,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solved the task(first method)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved the task(first method)" />
   </component>
 </project>
