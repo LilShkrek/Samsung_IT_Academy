@@ -1,6 +1,7 @@
 package ru.LilShkrek;
 
 import java.util.Scanner;
+import java.util.Vector;
 
 public class Main {
 
@@ -11,8 +12,8 @@ public class Main {
         //int firstInt = scanner.nextInt();
         //System.out.println(firstInt);
         Scanner sc = new Scanner(System.in);
-        String str1 = "";
-        String str2 = "";
+        Vector arr1 = new Vector();
+        Vector arr2 = new Vector();
         int sum = sc.nextInt();
         int sum2 = 0;
         int sum11 = sum;
@@ -28,28 +29,28 @@ public class Main {
 
             while(sum != 0) {
 
-                str1 += "10";
+                arr1.add(10);
                 sum -= 10;
 
             }
 
             while(sum2 >= 9) {
 
-                str1 += "9";
+                arr1.add(9);
                 sum2 -= 9;
 
             }
 
             while(sum2 >= 5) {
 
-                str1 += "5";
+                arr1.add(5);
                 sum2 -= 5;
 
             }
 
             while(sum2 >= 1) {
 
-                str1 += "1";
+                arr1.add(1);
                 sum2 -= 1;
 
             }
@@ -58,21 +59,21 @@ public class Main {
 
             while(sum != 0) {
 
-                str1 += "9";
+                arr1.add(9);
                 sum -= 9;
 
             }
 
             while(sum2 >= 5) {
 
-                str1 += "5";
+                arr1.add(5);
                 sum2 -= 5;
 
             }
 
             while(sum2 >= 1) {
 
-                str1 += "1";
+                arr1.add(1);
                 sum2 -= 1;
 
             }
@@ -81,36 +82,43 @@ public class Main {
 
         while(sum11 >= 10) {
 
-            str2 += "10";
+            arr2.add(10);
             sum11 -= 10;
 
         }
 
         while(sum11 >= 9) {
 
-            str2 += "9";
+            arr2.add(9);
             sum11 -= 9;
 
         }
 
         while(sum11 >= 5) {
 
-            str2 += "5";
+            arr2.add(5);
             sum11 -= 5;
 
         }
 
         while(sum11 >= 1) {
 
-            str2 += "1";
+            arr2.add(1);
             sum11 -= 1;
 
         }
 
-        if(str1.length() > str2.length()) System.out.println(str2);
-        else System.out.println(str1);
-        System.out.println(str2);
-        System.out.println(str1);
+        if(arr1.capacity() > arr2.capacity()) {
+
+            arr2.forEach((n) -> System.out.println(n));
+
+        }
+        else {
+
+            arr1.forEach((n) -> System.out.println(n));
+
+        }
+
 
         //Добавить 2 вектора, пушбэкать в них и сравнивать размеры векторов
 
