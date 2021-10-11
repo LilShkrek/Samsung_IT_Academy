@@ -4,26 +4,27 @@ import java.util.Scanner;
 
 public class Hometask {
 
-    public static void main(String[] args) {
+    public static void main() {
 
         Scanner sc = new Scanner(System.in);
         long a = sc.nextInt(), b = sc.nextInt(), n = sc.nextInt();
+        long suma = 0, sumb = 0;
 
         for(int i = 0; i < n; ++i) {
 
-            a += a;
-            b += b;
+            suma += a;
+            sumb += b;
 
-            if(b >= 100) {
+            if(sumb >= 100) {
 
-                ++a;
-                b %= 100;
+                ++suma;
+                sumb -= 100;
 
             }
 
         }
 
-        System.out.println(a + " " + b);
+        System.out.println(suma + " " + sumb);
 
     }
 

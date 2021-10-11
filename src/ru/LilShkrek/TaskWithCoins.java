@@ -128,7 +128,7 @@ public class TaskWithCoins {
 
     }
 
-    public static void main(String[] args) {
+    public static void main() {
 
         method1();
 

@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="169dad2f-f974-4617-b974-ee8f955dc716" name="Changes" comment="Created new file for the first task">
-      <change afterPath="$PROJECT_DIR$/src/ru/LilShkrek/Hometask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/LilShkrek/AlyansHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/LilShkrek/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/LilShkrek/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/LilShkrek/NezitHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/LilShkrek/OrdaHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/LilShkrek/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2021_16_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2021_16_58__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Samsung_IT_Academy/ru/LilShkrek/Hometask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Samsung_IT_Academy/ru/LilShkrek/Hometask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Samsung_IT_Academy/ru/LilShkrek/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Samsung_IT_Academy/ru/LilShkrek/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Samsung_IT_Academy/ru/LilShkrek/TaskWithCoins.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Samsung_IT_Academy/ru/LilShkrek/TaskWithCoins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/LilShkrek/Hometask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/LilShkrek/Hometask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/LilShkrek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/LilShkrek/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/LilShkrek/TaskWithCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/LilShkrek/TaskWithCoins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +106,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Hometask">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Hometask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.LilShkrek.Hometask" />
       <module name="Samsung_IT_Academy" />
@@ -133,9 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Hometask" />
         <item itemvalue="Application.TaskWithCoins" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
