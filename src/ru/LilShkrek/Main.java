@@ -7,6 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+
+    }
+
+    private static void WorkingWithHeroes() {
         Hero h4 = new AlyansHero("Первый");
         Hero h5 = new OrdaHero("Второй");
         Hero h6 = new NezitHero("Третий");
@@ -14,7 +19,6 @@ public class Main {
         System.out.println(h4.speak());
         System.out.println(h5.speak());
         System.out.println(h6.speak());
-
     }
 
     private static void workWithPeople() {
